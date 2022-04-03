@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>FUTURE TRAVEL</title>
+    <script language="JavaScript">
+        function writeText(txt){
+            document.getElementById("desc").innerHTML=txt;
+        }
+        function dissolveText(txt){
+            document.getElementById("desc").innerHTML=txt;
+        }
+    </script>
+	<style type="text/css">
+
+    body{
+        color:black;
+        background-color: turquoise;
+    }
+    img{
+        margin: 5px 50px;
+		border-radius: 20px;
+        border: ridge 5px #36cea8 ;
+	}
+    h1{
+        font: georgia serif;
+        text-align: left;
+        text-decoration: underline;
+    }
+    h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin: 0 50px;
+    }
+
+    h3{
+        font: 1.25em georgia, serif;
+        font-weight: bold;
+        margin: 0px 5px;   
+    }
+    
+    p{
+        font: 1.125em  arial, sans-serif;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    
+    .button:hover{
+        color: white;
+        font: 1.25em small-caps bolder Arial, sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 10px;
+        border: 2px solid black;
+        background-color: rgb(108, 158, 108);
+        opacity: 80%;
+        cursor: crosshair;
+    }
+    .button{
+        color: black;
+        font: 1.125em small-caps bolder Arial, sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 10px;
+        border: 2px solid black;
+        background-color: #36cea8;
+        margin: 0px 20px;
+    }    
+
+    #greeting{
+        background-color: #36cea8;
+        border: 2px dashed black;
+        margin: 20px 50px;
+    }
+    #topbar{
+        color:black;
+        background-color: #36cea8;
+        border: 2px solid black;}
+
+    #name {
+        font:  2.5em small-caps Georgia, serif;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        text-shadow: none;
+        text-decoration: none;}
+    
+    #menu{
+        color: black;
+        background-color: coral;
+        margin: 0px 50px;
+        text-align: center;
+        border: dashed 2px black;
+    }
+    #menuparagraph{
+        margin: 0px;
+        font-weight: bold;
+        text-align: center;
+    }
+    #pageinfo{
+        margin: 20px 320px;
+        font: 2em small-caps Rockwell, serif;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+        line-height: 40px;
+        text-align: justify;
+    }
+
+    #desc{
+        font-family:Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.125em;
+        color: black;
+        text-align: center;
+        float: left;
+        margin: 0 100px;
+    }
+        
+	</style>
+</head>
+<body id="top">
+	<link rel="stylesheet" type="text/css">
+	<!--MANUEL, JANENRIQUE-->
+	<!--March 18, 2022-->
+
+    <div id="topbar">
+        <h1 id="name"> FUTURE TRAVELS</h1>
+        <hr  width="33%" size="2" color="black" align="middle";>
+
+    </div>
+    <br>
+    
+    <div id="menu">&nbsp;
+        <p id="menuparagraph"><a class="button" href="../index.HTML">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="#travel">Places I Want to Travel</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="#about">About</a></p>
+    &nbsp;</div>
+    
+   
+
+    <div align = "left"><blockquote style="background-color: coral;"><h2 id="travel">Places I Want to Travel</h2></blockquote></div>
+
+    <div align="center">
+        <img src="travel sign.png" alt="image of wooden sign with writings" usemap="#travelsign">
+        <map name="travelsign">
+            <area shape="poly" coords="108,130,132,131,176,131,223,133,271,134,317,136,337,135,345,125,396,155,396,161,350,189,342,187,337,177,247,176,143,173,107,171,108,132" href="Tokyo japan/tokyo_japan.HTML" alt="Tokyo Japan" target="newSpace" onmouseover="writeText('Tokyo is the home to the worlds busiest intersection, Shibuya Crossing. At peak travel times, the crossing, which contains five massive crosswalks, can see thousands of visitors and commuters scurrying to their destination. ');" onMouseOut="dissolveText('');">
+
+            <area shape="poly" coords="103,213,109,216,114,222,132,222,162,221,194,220,232,218,255,217,290,216,317,215,343,214,343,236,343,255,302,258,265,257,228,259,194,260,159,260,129,262,113,262,106,274,86,266,64,255,51,245,67,232,93,217,103,213" href="Bankok Thailand/bangkok_thailand.HTML" alt="Bangkok Thailand" target="newSpace" onmouseover="writeText('Bangkok full name, 169-characters long name has been listed in the Guinness Book of World Records for the longest name of a place. Krungthepmahanakhon Amonrattanakosin Mahinthara Yutthaya Mahadilok Phop Noppharat Ratchathani Burirom Udom Ratchaniwet Mahasathan Amonphiman Awatansathit Sakkathattiya Witsanukamprasit.');" onmouseout="dissolveText('');">
+
+            <area shape="poly" coords="107,302,127,302,178,303,200,302,228,303,260,302,294,303,319,304,336,303,344,293,352,292,367,301,387,315,395,319,397,326,384,335,367,346,354,355,345,355,338,344,311,344,266,344,222,344,166,344,129,344,107,344,106,326,107,302" href="Seoul Korea/seoul_korea.HTML" alt="Seoul Korea" target="newSpace" onmouseover="writeText('Seoul is the capital city of South Korea, it is considered to be the most livable city in Asia and one of the largest and most progressive cities in the world. More than half of South Korea’s entire population lives in Seoul, along with more than half a million expatriates.');" onmouseout="dissolveText('');">
+
+            <area shape="poly" coords="51,404,66,398,86,385,100,376,107,376,114,385,135,386,172,387,211,388,266,387,311,386,343,385,345,406,344,429,319,428,271,427,235,429,196,429,151,430,130,429,115,430,106,442,84,431,70,421,54,413,51,404" href="California USA/california_usa.HTML" alt="California USA" target="newSpace" onmouseover="writeText('From May through September most areas of California wont receive an inch of rain in total for those five months combined.  Many areas will not see a single day or rain for months.');" onmouseout="dissolveText('');">
+
+            <area shape="poly" coords="111,475,147,473,180,472,219,473,275,473,323,473,342,473,349,462,365,467,382,477,396,487,401,490,403,499,392,505,376,515,359,525,348,526,343,516,310,515,275,516,235,516,207,516,166,516,146,516,126,516,110,516,110,503,110,487,111,475" href="London UK/london_uk.HTML" alt="London UK" target="newSpace" onmouseover="writeText('London Is The Smallest City In England. London is actually just a small urban area part of the Greater London region. The city of London covers only 1.2 square miles and has a population of around 7,500 residents.');" onmouseout="dissolveText('');">
+        </map>
+    </div>
+    <p id="desc"></p>
+    <br><br><br>
+    
+
+    <br>
+    <P style="text-align: right; margin-right: 60px;" id="navigation"><a class="button" href="#top">Go to Top</a></P>
+    
+    <div align = "left"><blockquote style="background-color: coral;"><h2 id="about">About</h2></blockquote></div>
+    <div id="greeting">
+        <p id="pageinfo">This page shows places all over the world where I want to visit in the future. These are places I like to visit because of the people, culture, food and scenery. My top 5 places I want to visit are Tokyo Japan, Bangkok Thailand, Seoul Korea, California USA, London UK. This page contains my top 5 places I want to visit.</p>
+    </div>
+    <br>
+    <P style="text-align: right; margin-right: 60px;" id="navigation"><a class="button" href="#top">Go to Top</a></P>   
+    <br><br><br><br><br>
+</body>
+</html>
