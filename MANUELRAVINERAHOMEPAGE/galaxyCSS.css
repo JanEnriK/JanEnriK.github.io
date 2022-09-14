@@ -1,0 +1,68 @@
+
+    body, html {
+      background-color: lightcyan;
+      height: 100%;
+      margin: 0;
+    }
+    h2{
+      color: black;
+    }
+    p{
+      text-align: justify;
+      color: black;
+    }
+    .bg {
+      background-image: url("IMAGES/GalaxyBG.jpg");
+      height: 100%; 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size:cover;
+      float: center;
+    }
+    a,button{
+      margin: 5px 50px;
+      font: 1.125em Arial, sans-serif;
+      text-decoration:none;
+    }
+    img{
+      margin: 0;
+      padding: 0;
+    }
+    button{
+      color: white;
+      border: bordered 1px solid;
+      border-color: white;
+      border-radius: 25px;
+      background-color: black;
+      height: 40px;
+      width: 150px;
+      
+    }
+    button:hover{
+      border-radius: 0;
+      opacity: 90%;
+      color: red;
+    }
+    a:hover{
+      color: red;
+    }
+    #topLinks, a{
+      font-weight: bold;
+      color: black;
+      text-align: center;
+      background-color: lightcyan;
+    }
+    #mainbody{
+      color: white;
+      font: 1.125em Arial, sans-serif;
+      border: 3px solid white;
+      border-radius: 25px;
+      background-color: lightcyan;
+      margin:0 30px 0 650px;
+      padding: 50px;
+    }
+    #divider{
+      font-size: 2.5em;
+      margin: 0;
+      padding: 0 0 10px 0;
+    }
