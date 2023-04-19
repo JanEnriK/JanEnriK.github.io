@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Open+Sans">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="complaints.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+</style>
+<body>
+
+    <div class="sidebar">
+        <br>
+        <div class="logo-details">
+          <i class='bx bxl-c-plus-plus'></i>
+          <span class="logo_name"><img src="LOGO.png" alt="logo" height="200px" width="200px"></span>
+        </div>
+          <ul class="nav-links">
+            <li>
+              <a href="Residents.html">
+                <i class='bx bx-grid-alt' ></i>
+                <span class="links_name">Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="complaints.html" class="active">
+                <i class='bx bx-box' ></i>
+                <span class="links_name">Complaints and Greavance</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class='bx bx-list-ul' ></i>
+                <span class="links_name">Events</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class='bx bx-pie-chart-alt-2' ></i>
+                <span class="links_name">Barangay Officials</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class='bx bx-coin-stack' ></i>
+                <span class="links_name"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class='bx bx-book-alt' ></i>
+                <span class="links_name"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class='bx bx-user' ></i>
+                <span class="links_name"></span>
+              </a>
+            </li>
+            <li class="log_out">
+              <a href="#">
+                <i class='bx bx-log-out'></i>
+                <span class="links_name">Log out</span>
+              </a>
+            </li>
+          </ul>
+      </div>
+      <section class="home-section">
+        <nav>
+          <div class="sidebar-button">
+            <i class='bx bx-menu sidebarBtn'></i>
+            <span class="dashboard">Complaints</span>
+          </div>
+          <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <i class='bx bx-search' ></i>
+          </div>
+          <div class="profile-details">
+            <span class="admin_name">Users</option>
+            <select name="users" id="users">
+            <option value="barangay.html">Barangay Captain</option>
+            <option value="Officials.html">Secretary</option>
+            <option value="Officials.html">Officials</option>
+            <option value="Residents.html" selected>Resident</option>
+           
+            <i class='bx bx-chevron-down' ></i>
+          </select>
+          </div>
+        </nav>
+
+
+        <div class="tabset">
+            <!-- Tab 1 -->
+            <input type="radio" name="tabset" id="tab1" aria-controls="marzen" checked>
+            <label for="tab1">Barangay Certificate</label>
+            <!-- Tab 2 -->
+            <input type="radio" name="tabset" id="tab2" aria-controls="rauchbier">
+            <label for="tab2">Online Application</label>
+            <!-- Tab 3 -->
+            <input type="radio" name="tabset" id="tab3" aria-controls="dunkles">
+            <label for="tab3">Blotter</label>
+
+            <input type="radio" name="tabset" id="tab4" aria-controls="clearance">
+            <label for="tab4">Business Clearance</label>
+
+            <input type="radio" name="tabset" id="tab5" aria-controls="Cedula">
+            <label for="tab5">Cedula and Indigency Request</label>
+            
+            <div class="tab-panels">
+              <section id="marzen" class="tab-panel">
+                <h2>Barangay Certificate Request</h2>
+                
+            </section>
+              <section id="rauchbier" class="tab-panel">
+                <h2>Online Application</h2>
+                
+              </section>
+              <section id="dunkles" class="tab-panel">
+                <h2>Report a Crime</h2>
+                <div class="container">
+                    <form action="/action_page.php">
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="fname">First Name</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="lname">Last Name</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                        <label for="lname">Date</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="date" id="lname" name="lastname" placeholder="Date">
+                      </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="country">Location of Incident</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Location">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="subject">Describe the Incident</label>
+                        </div>
+                        <div class="col-75">
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width: 200px"></textarea>
+                        </div>
+                      </div>
+            
+                      <div class="row">
+                        <p><strong>Upload a photo of the incident:</strong>
+                            <br />
+                            <input accept="image/*" capture="camera" name="fileUpload" type="file" />
+                        </p>
+                      </div>
+                      <div class="row">
+                        <input type="submit" value="Submit">
+                      </div>
+                    </form>
+                  </div>
+              </section>
+              <section id="rauchbier" class="tab-panel">
+                <h2>Business Clearance</h2>
+                
+              </section>
+
+              <section id="Cedula" class="tab-panel">
+                <h2>Cedula and Indigency Request</h2>
+                
+              </section>
+            </div>
+            
+          </div>
+</body>
+</head>
+</html>
